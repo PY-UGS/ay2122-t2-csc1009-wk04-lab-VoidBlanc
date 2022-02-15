@@ -11,7 +11,7 @@ public class Question1 {
         double height = input.nextDouble();
 
         BMI bmi = new BMI(weight, height);
-        System.out.println("BMI is " + bmi.CalculateBMI());
-        System.out.println(bmi.interpretBMI(bmi.CalculateBMI()));
+        System.out.println("BMI is " + bmi.calculateBMI());
+        System.out.println(bmi.interpretBMI());
     }
 }
